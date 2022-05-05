@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Login</title>
+  <!-- MDB icon -->
+  <!--<link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" /> -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+</head>
+
+<body>
+  <!-- Start your project here-->
+  <section class="vh-100" style="background-color: black;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col col-xl-10">
+          <div class="card" style="border-radius: 1rem;">
+            <div class="row g-0">
+              <div class="col-md-6 col-lg-5 d-none d-md-block">
+                <img src="gvt.jpg" alt="login form" class="img-fluid"
+                  style="border-radius: 1rem 0 0 1rem; margin-top: 30px;" />
+              </div>
+              <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                <div class="card-body p-4 p-lg-5 text-black">
+
+                  <form action="" method="post">
+
+                    <div class="d-flex align-items-center mb-3 pb-1">
+
+                      <span class="h1 fw-bold mb-0">Login</span>
+                    </div>
+                    <div class="form-outline mb-4">
+                      <input type="text" pattern="[0-9]{12}" id="form2Example17" name="aadhaar"
+                        class="form-control form-control-lg" required="" />
+                      <label class="form-label" for="form2Example17">Aadhaar Number</label>
+                    </div>
+                    <div class="pt-1 mb-4">
+                      <input type="button" id="otp" class="btn btn-dark btn-lg btn-block" name="otp" value="Send OTP"
+                        onclick="show()">
+                    </div>
+                    <div class="form-outline mb-4" id="hide1" style="display: none;">
+                      <input type="text" id="form2Example27" name="psw" class="form-control form-control-lg"
+                        required="" />
+                      <label class="form-label" for="form2Example27"> Enter OTP</label>
+                    </div>
+                    <div class="pt-1 mb-4" id="hide2" style="display: none;">
+                      <input type="submit" class="btn btn-dark btn-lg btn-block" name="submit" value="Verify">
+                    </div>
+                    <a class="small text-muted" href="forgot_pswd.php">Forgot password?</a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End your project here-->
+  <script>
+    function show() {
+      var a = document.getElementById('form2Example17').value;
+      var regexp = /^[2-9]{1}[0-9]{11}$/;
+      if (a.match(regexp)) {
+        document.getElementById('hide1').style.display = 'block';
+        document.getElementById('hide2').style.display = 'block';
+        document.getElementById('otp').hidden = 'true';
+      }
+      else {
+        alert('Enter Valid Aadhaar Number');
+      }
+
+    }
+  </script>
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
+</html>
