@@ -21,10 +21,10 @@ Even though government services are digitized, it is difficult for the public to
 
 ### Mobile View
 ![IMG_20220506_131501](https://user-images.githubusercontent.com/53861782/167093664-f90b9806-bf24-4a0c-b236-0e2f7fe559a0.png)
-![IMG_20220506_131837](https://user-images.githubusercontent.com/53861782/167093685-df04fdff-a809-46d4-9dde-6f54774a73a9.png)
+
+![IMG_20220506_131720](https://user-images.githubusercontent.com/92270985/167122703-314e187e-1fe6-4bc1-8091-cfbbfe65a926.png)
 ![IMG_20220506_131837 (1)](https://user-images.githubusercontent.com/53861782/167093708-d11ce54a-5a3b-490c-9d2d-1bc5a2f8c80c.png)
 
 ### Chatbot_code_output
 ![chatbotsuccess](https://user-images.githubusercontent.com/53861782/167098332-8b3306a7-dad9-43b6-b961-dc9f514d2cdb.jpg)
-
 
