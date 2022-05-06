@@ -34,7 +34,7 @@ lemmatizer= WordNetLemmatizer()
 # In[6]:
 
 
-intents = json.loads(open('C:/Users/gokul/Downloads/python/intents.json').read())
+intents = json.loads(open('intents.json').read())
 
 
 # In[10]:
