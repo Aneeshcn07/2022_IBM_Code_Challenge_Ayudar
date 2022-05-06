@@ -1,8 +1,16 @@
 # IBMProject
-# Problem Statement
-# Team Members
-# Architecture
-# Screens
+## Problem Statement
+
+## Team Members
+Aneesh
+Gaagul C Gigi
+Geoff
+Luckmanuel Hakim
+Malavika S
+Shivanand 
+
+## Architecture
+## Screens
 
 ![home](https://user-images.githubusercontent.com/53861782/167078690-0a79d2dc-bc5a-4c68-a293-07240fc055ec.jpg)
 ![login](https://user-images.githubusercontent.com/53861782/167078707-e1114ac5-70cb-4135-9640-559638cd7971.jpg)
