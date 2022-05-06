@@ -1,5 +1,6 @@
 # IBMProject
 ## Problem Statement
+Even though government services are digitized, it is difficult for the public to search for the required service as there are different websites for different services. It is tiresome and time-consuming for someone looking to get the details of a specific service. 
 
 ## Team Members
 - Aneesh C N
