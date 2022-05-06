@@ -4,8 +4,8 @@
 ## Team Members
 - Aneesh C N
 - Gaagul C Gigi
-- Geoff
-- Luckmanuel Hakim
+- Geoff George
+- Lukmanul Hakkeem A
 - Malavika S
 - Shivanand 
 
