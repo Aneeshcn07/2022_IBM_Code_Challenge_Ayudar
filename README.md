@@ -1,5 +1,5 @@
 # IBMProject
-#Problem Statement
-#Team Members
-#Architecture
-#Screens
+# Problem Statement
+# Team Members
+# Architecture
+# Screens
