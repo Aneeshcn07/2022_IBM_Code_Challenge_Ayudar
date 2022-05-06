@@ -2,7 +2,7 @@
 ## Problem Statement
 
 ## Team Members
-- Aneesh
+- Aneesh C N
 - Gaagul C Gigi
 - Geoff
 - Luckmanuel Hakim
