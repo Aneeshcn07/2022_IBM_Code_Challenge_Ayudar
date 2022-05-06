@@ -2,12 +2,12 @@
 ## Problem Statement
 
 ## Team Members
--Aneesh
--Gaagul C Gigi
--Geoff
--Luckmanuel Hakim
--Malavika S
--Shivanand 
+- Aneesh
+- Gaagul C Gigi
+- Geoff
+- Luckmanuel Hakim
+- Malavika S
+- Shivanand 
 
 ## Architecture
 ## Screens
