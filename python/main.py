@@ -13,8 +13,8 @@ lemmatizer= WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
 
 words=pickle.load(open('words.pkl','rb'))
-words=pickle.load(open('classes.pkl','rb'))
-model=load_model('chatbot_model.hs')
+classes=pickle.load(open('classes.pkl','rb'))
+model=load_model('chatbot_model.h5')
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)

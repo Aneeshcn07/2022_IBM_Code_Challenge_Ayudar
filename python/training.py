@@ -34,7 +34,7 @@ lemmatizer= WordNetLemmatizer()
 # In[6]:
 
 
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('C:/Users/gokul/Downloads/python/intents.json').read())
 
 
 # In[10]:
@@ -63,7 +63,7 @@ words=sorted(set(words))
 
 
 classes=sorted(set(classes))
-
+classes[0:5]
 
 # In[12]:
 
@@ -122,7 +122,7 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy
 
 
 hist=model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
-model.save('chatbot_model.hs',hist)
+model.save('chatbot_model.h5',hist)
 print("\n\ndone")
 
 
