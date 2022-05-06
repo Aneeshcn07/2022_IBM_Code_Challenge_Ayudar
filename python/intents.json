@@ -1,0 +1,26 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["Hello","Hey","Hi","greetings","whats up"],
+    "responses": ["Hello!","Hey!","What can I do for you?","Good to see you again."]
+    },
+   
+    {"tag": "goodbye",
+    "patterns": ["See you later","bye","see ya","I'm leaving"],
+    "responses": ["Sad to see you go.","Talk to you later","Goodbye!"]
+    },
+   
+    {"tag": "services",
+    "patterns": ["Which all services?","name of services","services"],
+    "responses": ["A guide to all government services"]
+    },
+   
+    {"tag": "age",
+    "patterns": ["How old are you?","Your age","What is your age?","age?","When is your birthday?"],
+    "responses":["I was created on 5 May 2022","My owner never told me my age.","I don't know how old I am."]
+    },
+   
+    {"tag":"name",
+    "patterns": ["What is your name?", "Name?","What should I call you?"],
+    "responses": ["You can call me ", "I'm "]
+    }
+]}
